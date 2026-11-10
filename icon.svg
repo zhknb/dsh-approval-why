@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Approval explainer">
+  <path d="M32 6 54 14v18c0 13-9.4 22.6-22 26C19.4 54.6 10 45 10 32V14L32 6Z" fill="#f4b740" fill-opacity="0.18" stroke="#c98a12" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M25.5 25.5c0-4 3-7 6.8-7 3.9 0 6.7 2.6 6.7 6.1 0 2.9-1.5 4.5-4 6.2-2.2 1.5-2.8 2.6-2.8 4.7v1.2" fill="none" stroke="#c98a12" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="45" r="2.8" fill="#c98a12"/>
+</svg>
