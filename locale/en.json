@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Approval explainer",
+    "description": "Adds an ask-why button above a pending tool approval card, plus Chinese explanation: which permission is requested, what category of action this is, the real arguments and actions, and what refusing means. When the model's reason is a single sentence, two short lines (risk / if refused) stay visible under the card."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "dsh-approval-why",
+  "version": "1.0.8",
+  "description": "Adds a Chinese \"why does this need escalation?\" explainer to DSH sandbox-permission approval cards: the permission requested, the risk, what refusal means, and why this particular call is out of bounds.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "approval",
+    "sandbox",
+    "permission"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-approval"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhknb/dsh-approval-why.git"
+  },
+  "homepage": "https://github.com/zhknb/dsh-approval-why#readme",
+  "bugs": {
+    "url": "https://github.com/zhknb/dsh-approval-why/issues"
+  },
+  "author": "zhknb"
+}
